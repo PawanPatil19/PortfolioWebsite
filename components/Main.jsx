@@ -16,7 +16,7 @@ const Main = () => {
         <div class="grid grid-cols-1 divide-x-0 w-full flex-row md:grid-cols-2">
           <div>
             <span className="font-sans text-4xl">
-              Hi, I'm{" "}
+              Hi, I&rsquo;m{" "}
               <span className="text-[#5776ff] text-5xl font-bold">
                 Pawan Patil
               </span>
