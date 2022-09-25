@@ -23,7 +23,7 @@ const Resume = () => {
                 Resume
               </h3>
               <p className="pb-4 pt-2 text-white text-center"></p>
-              <Link target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1kxP_vNuyLq05ct48T_gq2Po0rUtogjvE/view?usp=sharing">
+              <Link target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1zIDEm-J5tpAQiqpN7fLDn4uN7m7bJhX0/view?usp=sharing">
                 <p className="text-center py-2 px-4 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
                   View
                 </p>
