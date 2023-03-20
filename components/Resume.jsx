@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Resume = () => {
   return (
-    <div id="resume" className="w-full md:h-screen p-2 flex items-center py-16 bg-white ">
+    <div id="resume" className="w-full md:h-full p-3 flex items-center py-16 bg-white ">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="w-full justify-center items-center">
           <h1 className="font-mono flex justify-center">&lt;Resume/&gt;</h1>
@@ -23,7 +23,7 @@ const Resume = () => {
                 Resume
               </h3>
               <p className="pb-4 pt-2 text-white text-center"></p>
-              <Link target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1S_Cn5tDZSPYyU1PnOHEDhuibLH0mos5r/view?usp=sharing">
+              <Link target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1xU5JQ9YfsM33_eM37CMVo_1MGX5MPOqt/view?usp=sharing">
                 <p className="text-center py-2 px-4 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
                   View
                 </p>

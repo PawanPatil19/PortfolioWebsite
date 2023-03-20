@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import TypedText from "./TypedText.js";
 import Link from "next/link.js";
+import homeImage from "../public/home_image.gif";
+
 import {
   AiOutlineLinkedin,
   AiOutlineGithub,
@@ -9,18 +11,24 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 
+
 const Main = () => {
   return (
-    <div id='home' className="w-full h-screen text-center bg-white md:bg-[url('../public/home_image3.png')] bg-hero bg-no-repeat bg-cover bg-center bg-fixed">
-      <div className="w-full h-full mx-auto p-2 flex justify-center items-center ">
-        <div class="grid grid-cols-1 divide-x-0 w-full flex-row md:grid-cols-2">
-          <div>
-            <span className="font-sans text-4xl">
+    <div id='home' className="w-full h-screen text-center bg-white bg-hero bg-no-repeat bg-cover bg-center bg-fixed">
+      <div className="w-full h-full mx-auto flex justify-center items-center ">
+        <div class="grid grid-cols-1 w-full md:grid-cols-2">
+          <div className="my-auto">
+            <span className="font-sans text-4xl md:text-5xl">
               Hi, I&rsquo;m{" "}
-              <span className="text-[#5776ff] text-5xl font-bold">
+              <span className="text-[#5776ff] text-5xl md:text-6xl font-bold">
                 Pawan Patil
               </span>
             </span>
+            <br></br>
+            <span className="font-sans text-sm text-gray-400">
+              Year 2 Computer Science Student @ NUS
+            </span>
+            <br></br>
             <br></br>
             <TypedText />
 
@@ -59,6 +67,15 @@ const Main = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="p-2 hidden md:block">
+            <Image
+              src={homeImage}
+              alt="Picture of the author"
+              width={500}
+              height={500}
+              className="rounded-full"
+            />
           </div>
         </div>
       </div>

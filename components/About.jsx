@@ -10,7 +10,7 @@ const About = () => {
                 <p className='text-sm md:text-lg'>I am a Year 2 Computer Science student at the National University
                     of Singapore. I love creating new things and working on ideas 
                     in my areas of interest. <br></br>
-                    I have designed and built several Web applications, and worked on 
+                    I have designed and built several web and mobile applications, and worked on 
                     creating user-friendly designs for my projects. In my free time,
                     I also like doing Photography and play tennis. 
                 </p>

@@ -4,6 +4,9 @@ import bartzeeImg from "../public/assets/projects/bartzeeImage.png";
 import chatImg from "../public/assets/projects/chatImage.png";
 import cleanImg from "../public/assets/projects/cleanImage.png";
 import discordImg from "../public/assets/projects/discordImage.png";
+import pocketbookImg from "../public/assets/projects/pocketbook.png";
+import vortoImg from "../public/assets/projects/vorto.png";
+import helpinguImg from "../public/assets/projects/helpingU.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 import {AiFillGithub} from 'react-icons/ai';
@@ -27,6 +30,18 @@ const Projects = () => {
           </h3></Link>
           <br></br>
           <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+              title="Vorto"
+              backgroundImg={vortoImg}
+              projectUrl="https://github.com/shirsho-12/vorto_hacknroll"
+              projectInfo="Flutter | REST API "
+            />
+            <ProjectItem
+              title="HelpinU"
+              backgroundImg={helpinguImg}
+              projectUrl="https://devpost.com/software/helpinu-6me5qs"
+              projectInfo="ReactJS | MongoDB | Flutter"
+            />
             <ProjectItem
               title="Bartzee"
               backgroundImg={bartzeeImg}
@@ -34,10 +49,10 @@ const Projects = () => {
               projectInfo="NodeJS | ExpressJS | MongoDB"
             />
             <ProjectItem
-              title="ChatBox"
-              backgroundImg={chatImg}
-              projectUrl="https://github.com/PawanPatil19/ChatBox---Flutter-Chat-Application"
-              projectInfo="Flutter | Dart"
+              title="PocketBook"
+              backgroundImg={pocketbookImg}
+              projectUrl="https://github.com/PawanPatil19/pocketBook"
+              projectInfo="Flutter | Firebase"
             />
             <ProjectItem
               title="Clean-G"

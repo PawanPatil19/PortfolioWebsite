@@ -22,30 +22,30 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         {/* <Image src="/../public/logo_navbar.png" alt="/" height="50" width="125"></Image> */}
         <Link href="/">
-          <span className="font-sans font-bold text-3xl px-4 cursor-pointer ">
+          <span className="font- font-bold text-3xl px-4 cursor-pointer ">
             Pawan Patil
           </span>
         </Link>
-        <div>
+        <div className="p-5">
           <ul className="hidden md:flex">
             <Link href="/#home">
-              <li className="ml-10 text-md uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-md uppercase hover:border-b hover:scale-125">Home</li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-md uppercase hover:border-b">
+              <li className="ml-10 text-md uppercase hover:border-b hover:scale-125">
                 About Me
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-md uppercase hover:border-b">
+              <li className="ml-10 text-md uppercase hover:border-b hover:scale-125">
                 Projects
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-md uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-md uppercase hover:border-b hover:scale-125">Skills</li>
             </Link>
             <Link href="/#resume">
-              <li className="ml-10 text-md uppercase hover:border-b">Resume</li>
+              <li className="ml-10 text-md uppercase hover:border-b hover:scale-125">Resume</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
