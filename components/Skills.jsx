@@ -1,6 +1,6 @@
 import React from 'react';
 import {DiNodejsSmall, DiReact, DiJava, DiJavascript, DiPython, DiMongodb, DiPostgresql, DiGit, DiLinux} from 'react-icons/di';
-import {SiSocketdotio, SiCplusplus, SiFlutter, SiExpress, SiTailwindcss, SiFigma} from 'react-icons/si'
+import {SiSocketdotio, SiCplusplus, SiFlutter, SiExpress, SiTailwindcss, SiFigma, SiFlutter} from 'react-icons/si'
 import {TbBrandNextjs} from 'react-icons/tb'
 
 const Skills = () => {
@@ -18,24 +18,22 @@ const Skills = () => {
                     <div><DiJava size={50} />Java</div>                    
                     <div><DiPython size={50} />Python</div> 
                     <div><SiCplusplus size={50}/>C++</div>                   
-                    <div><DiMongodb size={50}/>Mongodb</div> 
-                    <div><SiExpress size={50}/>Express</div>
                     <div><DiGit size={50}/>Git</div>
-                    <div><TbBrandNextjs size={50} />Nextjs</div>
                     <div><SiFigma size={50}/>Figma</div>
+                    <div><SiFlutter size={50}/>Flutter</div>
+                    <div><SiTailwindcss size={50} />Tailwind CSS</div> 
+                    <div><DiJavascript size={50} />Javascript</div>  
                 </div>
                 <br></br>
                 <br></br>
                 <h4>I have some experience in</h4>
                 <br></br>
                 <div className='grid grid-cols-3 md:grid-cols-5 gap-8'>
-                    <div><SiFlutter size={50}/>Flutter</div>
                     <div><SiSocketdotio size={50} />Socket.io</div> 
                     <div><DiPostgresql size={50} />Postgresql</div>
-                    <div><DiJavascript size={50} />Javascript</div>
                     <div><DiLinux size={50} />Linux</div>
-                    <div><SiTailwindcss size={50} />Tailwind CSS</div> 
-                    <div><DiJavascript size={50} />Javascript</div>                   
+                    <div><DiMongodb size={50}/>Mongodb</div>
+                    <div><SiExpress size={50}/>Express</div>
                 </div>               
                 
                 
