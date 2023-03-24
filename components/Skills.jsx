@@ -1,6 +1,6 @@
 import React from 'react';
 import {DiNodejsSmall, DiReact, DiJava, DiJavascript, DiPython, DiMongodb, DiPostgresql, DiGit, DiLinux} from 'react-icons/di';
-import {SiSocketdotio, SiCplusplus, SiFlutter, SiExpress, SiTailwindcss, SiFigma, SiFlutter} from 'react-icons/si'
+import {SiSocketdotio, SiCplusplus, SiFlutter, SiExpress, SiTailwindcss, SiFigma, SiPytorch, SiTensorflow} from 'react-icons/si'
 import {TbBrandNextjs} from 'react-icons/tb'
 
 const Skills = () => {
@@ -34,6 +34,9 @@ const Skills = () => {
                     <div><DiLinux size={50} />Linux</div>
                     <div><DiMongodb size={50}/>Mongodb</div>
                     <div><SiExpress size={50}/>Express</div>
+                    <div><SiPytorch size={50}/>Pytorch</div>
+                    <div><SiTensorflow size={50}/>Tensorflow</div>
+                    
                 </div>               
                 
                 
